@@ -12,11 +12,7 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-.dt {
-  width: 50%;
-  margin: 50px auto;
-}
-/*another search */
+/*search */
 #imaginary_container{
     margin: 20px auto;
 }
@@ -32,15 +28,14 @@ body {
     border:0;
     background:transparent;
 }
-/*another search */
-
-@media screen and (max-width: 480px) {
-    .dt {
-      width: 90%;
-      margin: 50px auto;
-    }
-}
-.paginationPRNt{text-align: center;}
+/* search */
 .table { 
      border: 1px solid #ddd; 
  }
+.paginationPRNt{text-align: center;}
+@media screen and (max-width: 480px) {
+    .table { 
+		border: 0px solid #ddd; 
+	}
+}
+
