@@ -3,6 +3,7 @@ var module = angular.module('app', ['ui.bootstrap']);
 module.controller('MyController', function($scope, $http) {
   $scope.data=[];    //Data which will show in table decalaration 
   $scope.jData=[];  //json data object declaration 
+  
 
   $scope.currentPage = 1;
   $scope.numPerPage = 10;
